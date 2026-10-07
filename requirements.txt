@@ -1,0 +1,5 @@
+PySide6-Essentials>=6.7   # Qt for Python: the overlay window, menu bar icon, drawing
+vosk>=0.3.44              # offline speech recognition (needs the model: scripts/download_voice_model.py)
+sounddevice>=0.4.6        # reads the microphone
+pytest>=8                 # tests
+pillow>=10                # only used by scripts/make_demo_gif.py

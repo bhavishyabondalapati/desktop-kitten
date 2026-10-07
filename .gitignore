@@ -1,0 +1,15 @@
+# secrets and local settings
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# downloaded speech model (about 70 MB unzipped): python scripts/download_voice_model.py
+models/
