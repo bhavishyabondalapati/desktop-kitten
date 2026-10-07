@@ -1,0 +1,4 @@
+# Optional: only needed for mood mode (python -m desktop_kitten --mood)
+torch>=2.4
+opencv-python>=4.10,<5   # 5.x dropped the bundled Haar face detector
+numpy
