@@ -2,4 +2,8 @@ PySide6-Essentials>=6.7   # Qt for Python: the overlay window, menu bar icon, dr
 vosk>=0.3.44              # offline speech recognition (needs the model: scripts/download_voice_model.py)
 sounddevice>=0.4.6        # reads the microphone
 pytest>=8                 # tests
-pillow>=10                # only used by scripts/make_demo_gif.py
+pillow>=13.0.0                # only used by scripts/make_demo_gif.py
+
+# Security floors for transitive dependencies (known vulnerabilities below these versions)
+certifi>=2026.10.18
+filelock>=4.2.1

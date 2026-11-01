@@ -211,6 +211,7 @@ desktop-kitten/
 │   └── make_demo_gif.py         Renders assets/demo.gif
 ├── assets/                    Sprite sheets (24×16 px frames), preview, demo GIF
 ├── .github/workflows/tests.yml  CI: pytest on macOS
+├── LICENSE
 ├── requirements.txt
 ├── requirements-mood.txt      Extra dependencies for mood mode
 └── pyproject.toml             pytest settings
@@ -236,3 +237,7 @@ desktop-kitten/
 - Hotkey presses could not be tested by automation (macOS blocks scripted keystrokes); hotkey registration is tested.
 - Mood mode's frame loop is tested with a fake camera; end-to-end use requires granting camera permission manually.
 - The demo GIF is rendered rather than screen-recorded.
+
+## License
+
+Code is released under the MIT License; see [LICENSE](LICENSE).

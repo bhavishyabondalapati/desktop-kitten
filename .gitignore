@@ -13,3 +13,24 @@ __pycache__/
 
 # downloaded speech model (about 70 MB unzipped): python scripts/download_voice_model.py
 models/
+
+# Security baseline: secrets, environments, logs, databases, raw data, model weights, OS files
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+credentials*.json
+secrets/
+node_modules/
+*.log
+logs/
+*.db
+*.sqlite3
+data/raw/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
